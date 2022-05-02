@@ -16,8 +16,11 @@ function Navbar() {
             <div className={`container ${style.NavContainer}`}>
                 <div className={style.NavIcon}>
                     <Link to="/">
-                        <img src={Logo} alt=" Pizza Guyz" />
+                        <img src={Logo} alt=" Pizza Hub" />
                     </Link>
+                </div>
+                <div>
+                   <h3 className={style.mesg}> Grab Pizzas,wings,Fries,Desserts,coke </h3>
                 </div>
                 <div className={`ml-auto my-auto ${style.NavLinkHolder}`}>
                     <Navlinks />

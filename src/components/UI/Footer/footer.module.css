@@ -1,5 +1,5 @@
 .Footer {
-	background-color: #f0f0f0;
+	background-color: #c4b4be;
 }
 
 .H2 {
@@ -13,7 +13,7 @@
 }
 
 .FooterSection {
-	width: 50%;
+	width: 20%;
 }
 
 .LinksContainer {
@@ -54,7 +54,7 @@
 .SocialMediaBtn {
 	height: 36px;
 	width: 36px;
-	border-radius: 50%;
+	border-radius: 20%;
 	margin: 12px 20px;
 	display: flex;
 	justify-content: center;
