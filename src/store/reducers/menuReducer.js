@@ -14,50 +14,46 @@ const initialState = {
                 {
                     "desc": "Barbecue chicken for that extra zing",
                     "id": 2,
-                    "img": "https://firebasestorage.googleapis.com/v0/b/pizza-man-61510.appspot.com/o/img%2FBarbeque_Chicken.webp?alt=media&token=27f22f19-27f9-4017-a0a1-47aa43cfddb7",
+                    "img": "https://www.killerpickles.com/wp-content/uploads/2012/10/DSCN8932.jpg",
                     "name": "Barbecue Chicken",
                     "price": 10
                 },
                 {
                     "desc": "Delightful combo of grilled mushroom & veggies",
                     "id": 3,
-                    "img": "https://firebasestorage.googleapis.com/v0/b/pizza-man-61510.appspot.com/o/img%2FFarmhouse.webp?alt=media&token=7d776979-1a68-4c22-9679-66c9d82fb439",
+                    "img": "http://4.bp.blogspot.com/-n-jZjyEzncE/Uq8IxN6-giI/AAAAAAAADWk/OL-YhSPEG_4/s1600/Pizza+Food+Hd+Wallpaper.jpg",
                     "name": "Farmhouse",
                     "price": 13
                 },
                 {
                     "desc": "Supreme combo of 3 types of chicken",
                     "id": 4,
-                    "img": "https://firebasestorage.googleapis.com/v0/b/pizza-man-61510.appspot.com/o/img%2FNon_Veg_Supreme.webp?alt=media&token=6a4195fa-dbfd-419e-ac1b-3f1721c54bfa",
+                    "img": "https://pizzaneed.com/wp-content/uploads/2019/05/different-types-of-pizza.jpg",
                     "name": "Non Veg Supreme",
                     "price": 15
                 },
+
                 {
-                    "desc": "The awesome foursome with exotic veggies!",
-                    "id": 5,
-                    "img": "https://firebasestorage.googleapis.com/v0/b/pizza-man-61510.appspot.com/o/img%2FVeggie_Paradise.webp?alt=media&token=41d36b34-d8ef-4377-9184-393edd9da9e6",
-                    "name": "Veggie Paradise",
-                    "price": 13
-                }
+                     "desc": "American Veggie with cheese!",
+                     "id": 5,
+                     "img": "https://firebasestorage.googleapis.com/v0/b/pizza-man-61510.appspot.com/o/img%2FVeggie_Paradise.webp?alt=media&token=41d36b34-d8ef-4377-9184-393edd9da9e6",
+                     "name": "American Paradise",
+                     "price": 10
+                                }
             ],
             "name": "Best Sellers"
         },
         {
             "items": [
+
                 {
-                    "desc": "Classic delight with 100% real mozzarella cheese",
-                    "id": 1,
-                    "img": "https://firebasestorage.googleapis.com/v0/b/pizza-man-61510.appspot.com/o/img%2Fmargherita.webp?alt=media&token=721d918a-1a56-40c4-a882-b168e8220122",
-                    "name": "Margherita",
-                    "price": 11
-                },
-                {
-                    "desc": "Delightful combo of grilled mushroom & veggies",
-                    "id": 3,
-                    "img": "https://firebasestorage.googleapis.com/v0/b/pizza-man-61510.appspot.com/o/img%2FFarmhouse.webp?alt=media&token=7d776979-1a68-4c22-9679-66c9d82fb439",
-                    "name": "Farmhouse",
-                    "price": 17
-                },
+                     "desc": "Classic American Indian blend with desi Paneer",
+                     "id": 1,
+                     "img": "https://firebasestorage.googleapis.com/v0/b/pizza-man-61510.appspot.com/o/img%2Fmargherita.webp?alt=media&token=721d918a-1a56-40c4-a882-b168e8220122",
+                     "name": "Fusion",
+                     "price": 10
+                   },
+
                 {
                     "desc": "The awesome foursome with exotic veggies!",
                     "id": 5,
@@ -65,13 +61,7 @@ const initialState = {
                     "name": "Veggie Paradise",
                     "price": 17
                 },
-                {
-                    "desc": "A delicacy prepared with golden corn",
-                    "id": 6,
-                    "img": "https://firebasestorage.googleapis.com/v0/b/pizza-man-61510.appspot.com/o/img%2FCheese_n_Corn.webp?alt=media&token=55ae0731-ffb6-42c4-ad61-3d1d735b04f1",
-                    "name": "Cheese n Corn",
-                    "price": 16
-                },
+
                 {
                     "desc": "Flavorful trio: paneer, capsicum, red paprika",
                     "id": 7,
@@ -91,13 +81,7 @@ const initialState = {
                     "name": "Barbecue Chicken",
                     "price": 11
                 },
-                {
-                    "desc": "Supreme combo of 3 types of chicken",
-                    "id": 4,
-                    "img": "https://firebasestorage.googleapis.com/v0/b/pizza-man-61510.appspot.com/o/img%2FNon_Veg_Supreme.webp?alt=media&token=6a4195fa-dbfd-419e-ac1b-3f1721c54bfa",
-                    "name": "Non Veg Supreme",
-                    "price": 19
-                },
+
                 {
                     "desc": "Beware! You'll be left craving for more",
                     "id": 8,
@@ -119,56 +103,60 @@ const initialState = {
                     "name": "Indi Chicken Tikka",
                     "price": 21
                 },
-                {
-                    "desc": "Relish the delectable flavor of Chicken Pepperoni",
-                    "id": 11,
-                    "img": "https://firebasestorage.googleapis.com/v0/b/pizza-man-61510.appspot.com/o/img%2FPepperoni.webp?alt=media&token=a42a2b10-b651-44c1-a1ea-680987fd23d0",
-                    "name": "Chicken Pepperoni",
-                    "price": 19
-                }
+
             ],
             "name": "Non Veg Pizzas"
         },
         {
             "items": [
                 {
-                    "desc": "An all-time fav! A Cheesy indulgence",
+                    "desc": "KIDDY An all-time fav!",
                     "id": 12,
                     "img": "https://firebasestorage.googleapis.com/v0/b/pizza-man-61510.appspot.com/o/img%2FCheesy.webp?alt=media&token=0a6d2a09-6661-4e15-b2d3-161e32d116ba",
                     "name": "Cheesy Dip",
                     "price": 2
                 },
                 {
-                    "desc": "Hot crispy wavy masala coated fries",
+                    "desc": "masala coated kiddi fries",
                     "id": 13,
                     "img": "https://firebasestorage.googleapis.com/v0/b/pizza-man-61510.appspot.com/o/img%2FCrinkle_Fries.webp?alt=media&token=1b3bad75-67fa-4350-8027-98b2aec8bcbf",
                     "name": "Crinkle Fries",
                     "price": 4
                 },
                 {
-                    "desc": " Your perfect pizza partner when paired with dip",
+                    "desc": " Kiddy pizza",
                     "id": 14,
                     "img": "https://firebasestorage.googleapis.com/v0/b/pizza-man-61510.appspot.com/o/img%2FGarlic_bread.webp?alt=media&token=401111b2-370b-4413-b343-553e7bb437c7",
                     "name": "Garlic Breadsticks",
                     "price": 6
                 },
-                {
-                    "desc": " Truly irresistible taco with non-veg patty",
-                    "id": 15,
-                    "img": "https://firebasestorage.googleapis.com/v0/b/pizza-man-61510.appspot.com/o/img%2FTaco_Nvg.webp?alt=media&token=afb0085c-cacc-4141-87c9-e6cbf40dc208",
-                    "name": "Non Veg Taco",
-                    "price": 7
-                },
-                {
-                    "desc": " Truly irresistible taco with veg patty",
-                    "id": 16,
-                    "img": "https://firebasestorage.googleapis.com/v0/b/pizza-man-61510.appspot.com/o/img%2FTaco_Veg.webp?alt=media&token=2b7791de-415d-401b-b140-19a4932650b1",
-                    "name": "Veg Taco",
-                    "price": 9
-                }
+
+
             ],
-            "name": "Side Dishes"
+            "name": "Kids Menu"
         },
+               {
+                    "items": [
+
+                        {
+                            "desc": " Kiddy non-veg patty",
+                            "id": 15,
+                            "img": "https://firebasestorage.googleapis.com/v0/b/pizza-man-61510.appspot.com/o/img%2FTaco_Nvg.webp?alt=media&token=afb0085c-cacc-4141-87c9-e6cbf40dc208",
+                            "name": "Non Veg Taco",
+                            "price": 7
+                        },
+                        {
+                            "desc": " Kiddy veg patty",
+                            "id": 16,
+                            "img": "https://www.cuisinart.com/globalassets/catalog/appliances/food-processors/complete-chef-cooking-food-processor/tacosamericanos_ss1262600101.jpg",
+                            "name": "Veggie Tacos",
+                            "price": 5
+                        }
+                    ],
+                    "name": "Tacos"
+                },
+
+
         {
             "items": [
                 {
@@ -185,13 +173,22 @@ const initialState = {
                     "name": "Butterscotch Mousse",
                     "price": 6
                 },
+
+
+                                {
+                    "desc": "Milk cream of heaven",
+                     "id": 19,
+                     "img": "https://www.whiskaffair.com/wp-content/uploads/2013/10/Rasmalai-1.jpg",
+                     "name": "Rasmalai",
+                     "price": 7
+                                },
                 {
-                    "desc": "Cholcolate drizzeled Hot Chocolate Brownie",
-                    "id": 19,
-                    "img": "https://firebasestorage.googleapis.com/v0/b/pizza-man-61510.appspot.com/o/img%2FBrownie_Fantasy.webp?alt=media&token=61c7f537-b683-4a9b-b6fa-2a85ff35df6f",
-                    "name": "Brownie Fantasy",
-                    "price": 7
-                }
+                    "desc": "Chocolate shower",
+                     "id": 19,
+                     "img": "http://jujubabies.com/images/2011/02/chocolate-liquid.jpg",
+                     "name": "Brownie Fantasy",
+                     "price": 7
+                                                }
             ],
             "name": "Desserts"
         }
