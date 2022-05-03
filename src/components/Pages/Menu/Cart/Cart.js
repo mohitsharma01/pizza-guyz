@@ -17,8 +17,8 @@ function Cart(props) {
 
     return (
         <>
-            <div className={`mt-4 ${style.Body}`}>
-                <h1 className="my-2 mx-2">Cart</h1>
+            <div className={`mt-4 ${style.Body}`} style={{backgroundColor :'#af8f8f'}}>
+                <h1 className="my-2 mx-2" style={{border :'1px'}}>Cart</h1>
                 <div className="mx-2">
                     {props.cart.length > 0 ?
                         //     <button className={`my-2 mx-2 btn btn-danger ${style.ClearCartBtn}`} onClick={props.clearCart}>

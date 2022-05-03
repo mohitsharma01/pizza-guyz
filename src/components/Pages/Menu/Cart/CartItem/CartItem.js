@@ -21,7 +21,7 @@ function CartItem(props) {
             <div>
                 <strong> {name} </strong>
             </div>
-            <div className={`font-italic font-weight-lighter text-muted ${style.Description}`}>
+            <div className={`font-italic font-weight-lighter text-muted ${style.Description}`} style={{color :'eef1f5'}}>
                 {desc}
             </div>
             <div className="row mt-2">
